@@ -22,6 +22,41 @@ body {
     color: black;
 }
 #endhdr{
-    display: block;
-    /* acá iba algo de both que no recuerdo */
+    clear:both;
+}
+header {
+    position: sticky;
+    top: 0;
+    width: 960px;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+#sec1 {
+    height: 600px;
+    background-color: blue;
+}
+#sec2 {
+    height: 600px;
+    background-color: brown;
+}
+#sec3 {
+    height: 600px;
+    background-color: blue;
+}
+#sec4 {
+    height: 600px;
+    background-color: brown;
+}
+#sec5 {
+    height: 600px;
+    background-color: blue;
+}
+#sec6 {
+    height: 600px;
+    background-color: brown;
+}
+footer {
+    height: 600px;
+    background-color: blue;
 }
