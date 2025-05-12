@@ -41,14 +41,27 @@ header {
     margin: 0;
     background-color: aliceblue;
 }
-#foto img {
-    width: 400px;
-    background-image: none;
-}
+/* Section 1 */
 #sec1 {
-    height: 600px;
+    padding-top: 50px;
+    height: 700px;
     background-color: blue;
 }
+#textheader{
+    background-color: antiquewhite;
+}
+#foto img {
+    width: 50px;
+    background-image: none;
+    margin-left: 50px;
+}
+#navig {
+    width: 400px;
+    height: 80px;
+    background-color: aqua;
+}
+
+/* Section 2 */
 #sec2 {
     height: 600px;
     background-color: brown;
