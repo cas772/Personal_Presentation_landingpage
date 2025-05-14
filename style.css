@@ -35,25 +35,28 @@ body {
     clear:both;
 }
 header {
+    padding-top: 15px;
+    background-color: white;
     position: sticky;
     top: 0;
     width: 960px;
     margin: 0;
-    background-color: aliceblue;
 }
 /* Section 1 */
 #sec1 {
-    padding-top: 50px;
-    height: 700px;
-    background-color: blue;
+    background-image: url(images/yoo_web.gif);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
-#textheader{
-    background-color: antiquewhite;
+#textheader h1 {
+    padding-top: 150px;
+    font-size:110px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
-#foto img {
-    width: 50px;
-    background-image: none;
-    margin-left: 50px;
+#textheader p {
+    font-size: 40px;
 }
 #navig {
     width: 400px;
